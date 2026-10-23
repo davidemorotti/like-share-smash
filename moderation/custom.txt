@@ -1,0 +1,157 @@
+# Words added by hand to the LDNOOBW lists: languages and slang those lists miss.
+# One entry per line, written plainly (accents and case do not matter).
+#   ~word  match anywhere in a name, even short words ("KevFuck")
+#   =word  match only as a whole word ("kar" must not block "Karim")
+#   word   whole word if 4 letters or fewer, anywhere if 5 or more
+# Short entries that are also everyday words in another language belong in drop.txt instead.
+
+# --- strong short words that must match anywhere
+~fuck
+~fuk
+~cunt
+~shit
+~twat
+~slut
+~wank
+~jizz
+~porn
+~phuck
+~nazi
+~nigg
+~niga
+~fdp
+=ntm
+
+# --- English extras
+motherfucker
+=retard
+=fag
+faggot
+tranny
+=dyke
+=rape
+=nonce
+=paedo
+pedophile
+
+# --- French and Belgian street slang
+=nique
+niquer
+=zebi
+=zob
+batard
+connard
+=pd
+=tg
+salope
+=pute
+putain
+encule
+fils de pute
+ta mere
+=bougnoule
+bougnoul
+=bicot
+=youpin
+negre
+=chinetoque
+=gogol
+=mongol
+
+# --- Arabic and Turkish written in Latin letters, common among teens in France, Belgium and the Netherlands
+sharmouta
+charmouta
+=kahba
+=qahba
+=kehba
+nardinamouk
+=zamel
+=zemel
+=amk
+siktir
+orospu
+
+# --- Italian dialect and blasphemy
+porcodio
+diocane
+dioporco
+madonnaccia
+porcamadonna
+mortacci
+vaffanculo
+=minchia
+ricchione
+puttana
+froci
+=cazz
+~cazzo
+
+# --- Portuguese extras
+caralho
+=foda
+fodase
+filho da puta
+paneleiro
+=cona
+
+# --- Dutch and Flemish extras
+=kanker
+kankerlijer
+=tering
+=tyfus
+klootzak
+=kut
+=lul
+=hoer
+godverdomme
+mongool
+
+# --- German extras
+hurensohn
+wichser
+schwuchtel
+=fotze
+arschloch
+
+# --- Spanish extras
+=puto
+hijo de puta
+gilipollas
+=coño
+maricon
+
+# --- Albanian (please have a native speaker check this part)
+=qij
+qifsha
+qirje
+=pidh
+=pidhi
+=kar
+=kari
+=byth
+bytha
+kurve
+=kurva
+lavire
+
+# --- hate and extremism
+hitler
+~1488
+heilhitler
+siegheil
+=kkk
+whitepower
+holocaust
+genocide
+nigger
+negro
+
+# --- impersonation: nobody gets to pose as staff
+=admin
+administrator
+moderator
+=mod
+=staff
+official
+=support
+anthropic

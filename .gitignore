@@ -1,0 +1,26 @@
+# Only the game is published. Everything else (videos, stills, footage, portraits, captions) stays local.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/game/
+!/backend/
+!/moderation/
+!/tools/
+
+# game: recording builds are for the reels
+/game/record.html
+/game/record-ui.html
+
+# tools: only the web build and the game tests
+/tools/*
+!/tools/make-web-build.mjs
+!/tools/mp-test.mjs
+!/tools/police-test.mjs
+!/tools/package.json
+!/tools/package-lock.json
+
+.env
+.DS_Store
+node_modules/
+*.log

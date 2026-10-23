@@ -1,0 +1,1 @@
+{"name":"lss-rules-test","private":true,"type":"module","scripts":{"test":"firebase emulators:exec --only firestore --project demo-lss 'node test-rules.mjs'"},"dependencies":{"@firebase/rules-unit-testing":"^3.0.4","firebase":"^10.14.1","firebase-tools":"^13.29.1"}}

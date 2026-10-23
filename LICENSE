@@ -1,0 +1,43 @@
+THE "SMASH IT, SHARE IT, YOUR GENERATION PAYS FOR IT" LICENSE (SISIYGPFI for short)
+Legally an MIT License. Emotionally a Writ of Future Debt.
+
+Copyright (c) 2026 Davide Morotti
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+DISCLAIMER: This is a satire. Everything in it is made of polygons, and every
+polygon you smash is billed to a generation that does not exist yet. Do not
+smash real things. Real bus shelters do not respawn, real police do not fall
+over after one shove, and real debt does not reset when you press "Log back in".
+The author accepts no liability for broken windows, broken friendships, broken
+follower counts, or the sudden realisation that the views were never worth it.
+If this software makes you go outside and touch grass, please open an issue so
+we can fix that bug.
+
+-------------------------------------------------------------------------------
+THIRD-PARTY PARTS (their own licenses apply, not the one above)
+
+- Departure Mono font, Copyright 2022-2024 Helena Zhang. SIL Open Font License
+  1.1. See game/assets/DepartureMono-LICENSE.txt.
+- Crowd sound in game/audio: "Vancouver Riot 2011 (2)" by Mac Fisken,
+  CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Cut and looped.
+- Word lists in moderation/ldnoobw: "List of Dirty, Naughty, Obscene, and
+  Otherwise Bad Words" by Shutterstock, CC BY 4.0. See moderation/ldnoobw/LICENSE.
+- three.js and the Firebase SDK are loaded from their CDNs under their own
+  licenses (MIT and Apache 2.0).

@@ -1,0 +1,24 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "rooms": {
+      "$room": {
+        ".read": "auth != null && $room.matches(/^(lss-lobby|crew-[a-z][a-z-]{1,19}-[a-z0-9]{4})$/)",
+        "$peer": {
+          ".write": "auth != null && $room.matches(/^(lss-lobby|crew-[a-z][a-z-]{1,19}-[a-z0-9]{4})$/) && $peer.length <= 40 && (!data.exists() || data.child('u').val() === auth.uid) && (!newData.exists() || newData.child('u').val() === auth.uid)",
+          ".validate": "newData.hasChildren(['u', 't'])",
+          "u": { ".validate": "newData.isString() && newData.val().length <= 128" },
+          "t": { ".validate": "newData.isNumber()" },
+          "d": {
+            "$k": {
+              ".validate": "$k.length <= 8 && (newData.isNumber() || newData.isBoolean() || (newData.isString() && newData.val().length <= 32) || ($k === 'b' && newData.hasChildren()))",
+              "$i": { ".validate": "$k === 'b' && $i.length <= 2 && newData.isNumber()" }
+            }
+          },
+          "$other": { ".validate": false }
+        }
+      }
+    }
+  }
+}
